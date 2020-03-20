@@ -11,6 +11,7 @@ void setup() {
   background(255);
   bg = loadImage("ex1.png");
   sf = new SoundFile(this, "ex1.mp3");
+  sf.play();
   sf.loop();
   x2 = x1 - width;
 }
